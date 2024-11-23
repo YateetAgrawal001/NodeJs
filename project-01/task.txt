@@ -1,0 +1,14 @@
+REST api - json
+
+GET/user - give all the users  --- for the html rendering 
+GET/api/user - give all the users  ----- for the json rendering
+
+//Below 2 lines are the part of "Dynamic Parameters allocation"
+GET/api/user/1 - gives the user whose id is 1
+GET/api/user/2 - gives the user whose id is 2
+
+POST/api/user -- create the user
+
+PATCH/api/user/1 -- update the value of user 1
+
+DELETE/api/vuser/1 -- deletes the data of the user whose id is 1
