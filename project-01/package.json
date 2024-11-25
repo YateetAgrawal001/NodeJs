@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "yateet",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.0"
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7"
   }
 }
